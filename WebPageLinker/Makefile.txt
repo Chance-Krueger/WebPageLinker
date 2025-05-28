@@ -1,0 +1,2 @@
+WebPageLinker: WebPageLinker.c
+	gcc -Wall -g WebPageLinker.c -o WebPageLinker
