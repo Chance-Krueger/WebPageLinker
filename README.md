@@ -7,16 +7,16 @@ This C program builds a directed graph of web pages and their links from input c
     - How to represent a directed graph using adjacency lists in C with structs and pointers.
     - How to parse structured input line-by-line and handle different commands.
     - Implementing depth-first search (DFS) to determine connectivity between nodes.
-    - Managing dynamic data structures with linked lists for both pages and links.
+    - Managing dynamic data structures with WebPageLinker lists for both pages and links.
     - Handling error conditions gracefully, differentiating fatal vs nonfatal errors.
     - Writing a Makefile for compilation with proper compiler flags.
     - Basics of memory management and, optionally, freeing allocated memory
 
 ## How To run it:
 ### Compile the program using a C compiler, for example:
-    - Open your terminal in the folder containing linked.c and your Makefile, then type:
+    - Open your terminal in the folder containing WebPageLinker.c and your Makefile, then type:
         make
-    - This will create an executable called linked.
+    - This will create an executable called WebPageLinker.
     
 ### Run the executable from the command line:
 #### You can run the program in two ways:
@@ -24,14 +24,14 @@ This C program builds a directed graph of web pages and their links from input c
 ##### a) Using an input file
     If you have a file called, say, input.txt with the commands (like @addPages, @addLinks, @isConnected), run:
 
-        ./linked input.txt
+        ./WebPageLinker input.txt
 
     The program will read commands from input.txt.
 
 ##### b) Using standard input (typing commands manually)
     If you want to enter commands manually, run:
     
-        ./linked
+        ./WebPageLinker
     
     Then type commands line by line, for example:
 
